@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Random;
 import java.util.Scanner;
 
 public class Game {
@@ -111,7 +112,6 @@ public class Game {
                 (arrayList.get(i)).setRecipient(arrayList.get(0));
             } else {
                 (arrayList.get(i)).setRecipient(arrayList.get(i + 1));
-
             }
         }
         for (int j = 0; j < arrayList.size(); j++) {
@@ -136,6 +136,14 @@ public class Game {
             System.out.println("Для начала запустите игру");
         }
         System.out.println();
+    }
+
+    public static void random(ArrayList<User> arrayList){
+        Random random = new Random();
+        for (int i = 0; i < arrayList.size(); i++) {
+            int a = random.nextInt(arrayList.size());
+            //arrayList.get(i) = arrayList.get(a);
+        }
     }
 }
 
