@@ -3,7 +3,8 @@ import java.util.Scanner;
 public class MainMenu {
     public static void start() {
         while (true) {
-            System.out.println("Добро пожаловать в игру <Secret Santa>!");
+            System.out.println("ДОБРО ПОЖАЛОВАТЬ В ИГРУ <Secret Santa>!");
+            System.out.println("***************************************");
             System.out.println("Выберите действие:");
             System.out.println(" (1) Войти в аккаунт");
             System.out.println(" (2) Зарегистрироваться");
