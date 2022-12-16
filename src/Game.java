@@ -137,14 +137,7 @@ public class Game {
         }
         System.out.println();
     }
-
-    public static void random(ArrayList<User> arrayList){
-        Random random = new Random();
-        for (int i = 0; i < arrayList.size(); i++) {
-            int a = random.nextInt(arrayList.size());
-            //arrayList.get(i) = arrayList.get(a);
-        }
-    }
 }
+
 
 
